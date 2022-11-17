@@ -17,6 +17,7 @@
             {
                 components.Dispose();
             }
+            ChangeClipboardChain(this.Handle, this.nextClipboardViewer);
             base.Dispose(disposing);
         }
 
